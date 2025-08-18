@@ -1,0 +1,161 @@
+/* Importing Google Font "Poppins" for a modern look */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #1a1a2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Keyframe animation for a subtle background pan effect */
+@keyframes pan-background {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Hero section for a stylish background */
+.hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2c3e50;
+    background-image: linear-gradient(270deg, #1f4068, #162447);
+    background-size: 200% 200%;
+    animation: pan-background 30s ease infinite;
+    z-index: -1;
+}
+
+/* Main content container with glassmorphism effect */
+.container {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    padding: 6rem; /* Increased padding */
+    max-width: 650px; /* Increased max-width */
+    width: 90%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.5rem; /* Increased font size */
+    font-weight: 700;
+    margin-bottom: 2rem; /* Increased margin */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+p {
+    font-size: 1.8rem; /* Increased font size */
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for the error message */
+.error {
+    color: #e74c3c;
+    font-weight: 600;
+    margin-bottom: 2rem; /* Increased margin */
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Increased gap */
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 1.5rem; /* Increased padding */
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px; /* Increased border-radius */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 2.0rem; /* Increased font size */
+    transition: all 0.3s ease;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.5);
+}
+        
+/* Submit button styling */
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 1.5rem; /* Increased padding */
+    font-size: 2.0rem; /* Increased font size */
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1rem; /* Increased margin */
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Link styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+    .container {
+        padding: 3rem; /* Adjusted padding for smaller screens */
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    input[type="email"],
+    input[type="password"],
+    button[type="submit"] {
+        font-size: 1.2rem;
+    }
+}
