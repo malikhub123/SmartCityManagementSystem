@@ -1,11 +1,15 @@
-https://github.com/user-attachments/assets/b0a499f0-f9ee-43ea-aac0-42968a76d7ec
-
 # Smart City Complaint Management System
 
 ## 📌 Project Overview
 ```
 The Smart City Complaint Management System is a web-based application developed using **Java (J2EE: JSP, Servlets)**, **MySQL**, **HTML/CSS/JavaScript**, and **JDBC**. This system aims to provide a centralized and efficient platform for citizens to **register**, **track**, and **monitor** public grievances related to infrastructure and civic issues in their city. It ensures transparency, accountability, and quick resolution of complaints.
 ```
+
+https://github.com/user-attachments/assets/b0a499f0-f9ee-43ea-aac0-42968a76d7ec
+
+# Smart City Complaint Management System
+
+
 
 
 ## 🚀 Key Features
