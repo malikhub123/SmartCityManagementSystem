@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/b0a499f0-f9ee-43ea-aac0-42968a76d7ec
  🔧 Setup Instructions
 
 1. **Clone the Repository** bash
-   git clone https://github.com/your-username/smart-city-complaint-system.git
+   git clonen   https://github.com/malikhub123/SmartCityManagementSystem.git
 
 
 2. **Open in NetBeans**
