@@ -1,3 +1,4 @@
+https://github.com/user-attachments/assets/b0a499f0-f9ee-43ea-aac0-42968a76d7ec
 
 # Smart City Complaint Management System
 
@@ -19,7 +20,6 @@ The Smart City Complaint Management System is a web-based application developed 
 - Admin login
 - View all registered complaints
 - Update the status of complaints (Pending, In Progress, Resolved)
-- Manage users and feedback
 ```
 
 
