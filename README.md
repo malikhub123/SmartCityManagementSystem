@@ -59,17 +59,18 @@ https://github.com/user-attachments/assets/b0a499f0-f9ee-43ea-aac0-42968a76d7ec
 
 ```
 
+---
 
-### 🔽 Prerequisites
+## 🔽 Prerequisites
 
 - Java JDK 8 or above
 - Apache Tomcat 9+
 - MySQL Server
 - NetBeans IDE (recommended)
 
+---
 
-
- 🔧 Setup Instructions
+##  🔧 Setup Instructions
 
 1. **Clone the Repository** bash
    git clonen   https://github.com/malikhub123/SmartCityManagementSystem.git
@@ -90,6 +91,8 @@ https://github.com/user-attachments/assets/b0a499f0-f9ee-43ea-aac0-42968a76d7ec
 
    * Right-click on the project > Run
    * Ensure Tomcat server is configured in NetBeans
+
+---
 
 ## 🧩 Folder Structure
 
@@ -137,6 +140,7 @@ SmartCityCMS/
 * Graphical dashboard for admin
 * Integration with GIS/Map for location tagging
 
+---
 
 ## 📩 Contact
 Created by **Aditi Malik**
