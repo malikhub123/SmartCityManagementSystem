@@ -1,26 +1,48 @@
 # Smart City Complaint Management System
 
-## 📌 Project Overview
-```
-The Smart City Complaint Management System is a web-based application developed using **Java (J2EE: JSP, Servlets)**, **MySQL**, **HTML/CSS/JavaScript**, and **JDBC**. This system aims to provide a centralized and efficient platform for citizens to **register**, **track**, and **monitor** public grievances related to infrastructure and civic issues in their city. It ensures transparency, accountability, and quick resolution of complaints.
-```
+> The Smart City Complaint Management System is a web-based application developed using **Java (J2EE: JSP, Servlets)**, **MySQL**, **HTML/CSS/JavaScript**, and **JDBC**. This system aims to provide a centralized and efficient platform for citizens to **register**, **track**, and **monitor** public grievances related to infrastructure and civic issues in their city. It ensures transparency, accountability, and quick resolution of complaints.
+
+---
 
 https://github.com/user-attachments/assets/b0a499f0-f9ee-43ea-aac0-42968a76d7ec
 
 
-## 🚀 Key Features
-```
-### 👤 User Module
-- User Registration and Login
-- Register complaints with category, location, and description
-- Track complaint status using unique complaint ID
-- View complaint history
+## Features
 
-### 🔧 Admin Module
-- Admin login
-- View all registered complaints
-- Update the status of complaints (Pending, In Progress, Resolved)
-```
+### User Side
+
+* **User Registration & Login**
+* **Register Complaint**: Citizens can submit complaints with details.
+* **Track Complaint**: Check status using complaint ID.
+
+### Admin Side
+
+* **Admin Login**
+* **View All Complaints**
+* **Update Complaint Status**: Mark complaints as resolved, pending, etc.
+
+---
+
+## Database Schema
+
+### Table: `users`
+
+* `id` (INT, Primary Key, Auto Increment)
+* `username` (VARCHAR)
+* `password` (VARCHAR)
+* `role` (ENUM: 'user', 'admin')
+
+### Table: `complaints`
+
+* `complaint_id` (INT, Primary Key, Auto Increment)
+* `name` (VARCHAR)
+* `email` (VARCHAR)
+* `location` (VARCHAR)
+* `description` (TEXT)
+* `status` (ENUM: 'pending', 'in-progress', 'resolved')
+* `date_created` (TIMESTAMP)
+
+---
 
 
 ## 🛠️ Technologies Used
@@ -126,3 +148,5 @@ Created by **Aditi Malik**
 📧 Email: [malik2002.aditi@gmail.com](mailto:malik2002.aditi@gmail.com)
 🔗 LinkedIn: [aditi-malik-43880a222](https://linkedin.com/in/aditi-malik-43880a222)
 ```
+
+
