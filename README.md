@@ -62,12 +62,10 @@ https://github.com/user-attachments/assets/b0a499f0-f9ee-43ea-aac0-42968a76d7ec
 
 ### 🔽 Prerequisites
 
-```
 - Java JDK 8 or above
 - Apache Tomcat 9+
 - MySQL Server
 - NetBeans IDE (recommended)
-```
 
 
 
@@ -134,19 +132,15 @@ SmartCityCMS/
 
 
 ## 🎯 Future Enhancements
-```
 * Email/SMS Notification to users on status update
 * OTP-based authentication
 * Graphical dashboard for admin
 * Integration with GIS/Map for location tagging
-```
 
 
 ## 📩 Contact
-```
 Created by **Aditi Malik**
 📧 Email: [malik2002.aditi@gmail.com](mailto:malik2002.aditi@gmail.com)
 🔗 LinkedIn: [aditi-malik-43880a222](https://linkedin.com/in/aditi-malik-43880a222)
-```
 
 
